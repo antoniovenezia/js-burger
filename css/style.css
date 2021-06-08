@@ -46,8 +46,10 @@ header img{
 
 .discount-code input{
     background-color: #fff5e2;
-    width: 80%;
+    width: 70%;
     border: 0px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .button{

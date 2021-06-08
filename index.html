@@ -29,20 +29,21 @@
 
                 <div class="container">
 
+
+                    <!-- TITLES -->
+                    <form>
+                        <input class="name-burger" type="text" placeholder="Name your burger">
+                    </form>
+                    <h3>Ingredients</h3>
+
+                    <!-- INGREDIENTS -->
                     <div class="row">
-
-                        <!-- TITLES -->
-                        <form>
-                            <input class="name-burger" type="text" placeholder="Name your burger">
-                        </form>
-                        <h3>Ingredients</h3>
-
-                        <!-- INGREDIENTS -->
 
                         <div class="col-6 item-ingredient">
                             <img src="img/cheese.svg" class="img-item" alt="">
                             <span>Cheese</span>
-                            <input type="checkbox" class="somma-check" value="20">
+                            <input type="checkbox" class="somma-check" id="add" value="20">
+                            <label style="color: red;" for="add">add</label>
                         </div>
 
 
@@ -50,34 +51,39 @@
                         <div class="col-6 item-ingredient">
                             <img src="img/fried-egg.svg" class="img-item" alt="">
                             <span>Egg</span>
-                            <input type="checkbox" class="somma-check" value="30">
+                            <input type="checkbox" class="somma-check" id="add" value="30">
+                            <label style="color: red;" for="add">add</label>
                         </div>
 
 
                         <div class="col-6 item-ingredient">
                             <img src="img/ketchup.svg" class="img-item" alt="">
                             <span>Mustard</span>
-                            <input type="checkbox" class="somma-check" value="70">
+                            <input type="checkbox" class="somma-check" id="add" value="70">
+                            <label style="color: red;" for="add">add</label>
                         </div>
 
 
                         <div class="col-6 item-ingredient">
                             <img src="img/tomato.svg" class="img-item" alt="">
                             <span>Tomato</span>
-                            <input type="checkbox" class="somma-check" value="5">
+                            <input type="checkbox" class="somma-check" id="add" value="5">
+                            <label style="color: red;" for="add">add</label>
                         </div>
 
 
                         <div class="col-6 item-ingredient">
                             <img src="img/lettuce.svg" class="img-item" alt="">
                             <span>Lettuce</span>
-                            <input type="checkbox" class="somma-check" value="12">
+                            <input type="checkbox" class="somma-check" id="add" value="12">
+                            <label style="color: red;" for="add">add</label>
                         </div>
 
                         <div class="col-6 item-ingredient">
                             <img src="img/mustard.svg" class="img-item" alt="">
                             <span>Ketchup</span>
-                            <input type="checkbox" class="somma-check" value="45">
+                            <input type="checkbox" class="somma-check" id="add" value="45">
+                            <label style="color: red;" for="add">add</label>
                         </div>
 
                     </div>
@@ -97,17 +103,17 @@
 
             <!-- FOOTER -->
             <footer class="container-fluid footer-fluid">
-                <div class="container footer">
-                    <div class="row">
-                        <div class="col-6">Your Price</div>
-                        <div class="col-6 d-flex justify-content-end" id="result-sum"></div>
-                    </div>
+                <div class="row footer">
+                    <div class="col-6">Your Price</div>
+                    <div class="col-6 d-flex justify-content-end" id="result-sum"></div>
                 </div>
             </footer>
-            <script type="text/javascript" src="js/script.js"></script>
         </div>
+
         <div class="container2"></div>
+
     </div>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>

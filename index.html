@@ -15,8 +15,11 @@
 <body>
 
     <!-- HEAD -->
-    <header>
-        <h1>Create Your Burger</h1>
+    <header class="container d-flex">
+        <h1 class="col-9">Create Your Burger</h1>
+        <div class="col-3">
+            <img src="img/burger-top.png" alt="">
+        </div>
     </header>
 
 
@@ -33,57 +36,56 @@
 
                 <!-- INGREDIENTS -->
 
-                <div class="col-6">
-                    <img src="" alt="">
+                <div class="col-6 item-ingredient">
+                    <img src="img/cheese.svg" class="img-item" alt="">
                     <span>Cheese</span>
                     <input type="checkbox" class="somma-check" value="20">
                 </div>
 
 
 
-                <div class="col-6">
-                    <img src="" alt="">
+                <div class="col-6 item-ingredient">
+                    <img src="img/fried-egg.svg" class="img-item" alt="">
                     <span>Egg</span>
                     <input type="checkbox" class="somma-check" value="30">
                 </div>
 
 
-                <div class="col-6">
-                    <img src="" alt="">
+                <div class="col-6 item-ingredient">
+                    <img src="img/ketchup.svg" class="img-item" alt="">
                     <span>Mustard</span>
                     <input type="checkbox" class="somma-check" value="70">
                 </div>
 
 
-                <div class="col-6">
-                    <img src="" alt="">
+                <div class="col-6 item-ingredient">
+                    <img src="img/tomato.svg" class="img-item" alt="">
                     <span>Tomato</span>
                     <input type="checkbox" class="somma-check" value="5">
                 </div>
 
 
-                <div class="col-6">
-                    <img src="" alt="">
+                <div class="col-6 item-ingredient">
+                    <img src="img/lettuce.svg" class="img-item" alt="">
                     <span>Lettuce</span>
                     <input type="checkbox" class="somma-check" value="12">
                 </div>
 
-
-                <div class="col-6">
-                    <img src="" alt="">
+                <div class="col-6 item-ingredient">
+                    <img src="img/mustard.svg" class="img-item" alt="">
                     <span>Ketchup</span>
                     <input type="checkbox" class="somma-check" value="45">
                 </div>
 
             </div>
 
-            <div>
+            <div class="discount-code">
                 <span>Discount Coupon</span>
-                <input type="text" name="" id="">
+                <input type="text" name="" id="discount" placeholder="Inserisci il codice sconto">
             </div>
 
-            <div class="justify-content-center">
-                <button>calculate</button>
+            <div class="d-flex justify-content-center">
+                <button class="button" id="sum-button">calculate</button>
             </div>
 
         </div>
@@ -95,7 +97,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">Your Price</div>
-                <div class="col-6 justify-content-end totalPrice">Es.50€</div>
+                <div id="result-sum"></div>
             </div>
         </div>
     </footer>

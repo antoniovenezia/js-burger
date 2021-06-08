@@ -1,0 +1,24 @@
+header h1{
+    padding-top: 80px;
+    background-color: lightsalmon;
+}
+
+.img-item{
+    width: 60px;
+}
+
+.item-ingredient{
+    padding: 20px;
+}
+
+.discount-code input{
+    background-color: #ffd90757;
+    border: 0px;
+    width: 80%;
+}
+
+.button{
+    background-color: lightsalmon;
+    padding: 10px;
+    margin: 20px 0;
+}

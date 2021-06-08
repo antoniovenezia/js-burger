@@ -1,6 +1,25 @@
-header h1{
-    padding-top: 80px;
-    background-color: lightsalmon;
+.container1{
+    width: calc(100% / 2);
+    border: 1px solid black;
+    background-color: white;
+}
+
+.container2{
+    background-color: #fff5e2;
+}
+
+.container-header{
+    width: calc(100 / 2 + 50px);
+    background-color: #fdbb40;
+}
+
+header img{
+    width: 200px;
+}
+
+h2 {
+    color: grey;
+    padding: 20px 0;
 }
 
 .img-item{
@@ -12,13 +31,26 @@ header h1{
 }
 
 .discount-code input{
-    background-color: #ffd90757;
-    border: 0px;
+    background-color: #fff5e2;
     width: 80%;
+    border: 0px;
 }
 
 .button{
-    background-color: lightsalmon;
-    padding: 10px;
+    background-color: #fdbb40;
+    padding: 10px 20px;
     margin: 20px 0;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer-fluid{
+    background-color: #d33359;
+}
+
+.footer{
+    padding: 20px;
+    color: white;
+    font-weight: bold;
 }

@@ -1,25 +1,39 @@
 .container1{
     width: calc(100% / 2);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: white;
 }
 
 .container2{
+    width: calc(100% / 2);
     background-color: #fff5e2;
 }
 
 .container-header{
     width: calc(100 / 2 + 50px);
     background-color: #fdbb40;
+    position: relative;
+}
+
+header h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bold
 }
 
 header img{
-    width: 200px;
+    width: 180px;
+    position: absolute;
+    top: -20px;
+    right: -50px;
 }
 
-h2 {
+.name-burger{
     color: grey;
     padding: 20px 0;
+    font-size: 30px;
+    font-weight: 500;
+    border: 0px;
 }
 
 .img-item{
